@@ -120,6 +120,12 @@ llm = ChatOpenAI(model="gpt-4")
 response = llm.predict(f"Answer the following question based on these documents: {retrieved_docs}\n\nQuestion: {query}")
 print(response)
 ```
+Screenshot of Functionality
+
+Below is a screenshot showcasing the functionality of the system running with Pinecone:
+
+![image](https://github.com/user-attachments/assets/78f9376c-6cb8-4632-b9f8-23fdf300ec26)
+![image](https://github.com/user-attachments/assets/0733ab1f-8a87-463e-90b0-6609116fd034)
 
 
 ## Assessment
